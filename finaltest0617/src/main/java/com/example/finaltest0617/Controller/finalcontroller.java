@@ -17,7 +17,7 @@ public class finalcontroller {
         int random=(int) (Math.random() * 3);
 
         map.put("value",random);
-        map.put("type", "0");
+        map.put("type", 0);
 
         return map;
 
@@ -29,7 +29,7 @@ public class finalcontroller {
 
         int random=(int) (Math.random() * 3);
         map.put("value",random);
-        map.put("type", "1");
+        map.put("type", 1);
 
         return map;
 
@@ -42,7 +42,7 @@ public class finalcontroller {
 
         int random=(int) (Math.random() * 3);
         map.put("value",random);
-        map.put("type", "2");
+        map.put("type", 2);
 
         return map;
 
